@@ -8,9 +8,15 @@
         <artifactId>paymentchainparent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <groupId>com.paymentchain.infraestructuredomain</groupId>
+    <artifactId>infraestructuredomain</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <artifactId>infraestructuredomain</artifactId>
+    <modules>
+        <module>config-server</module>
+    </modules>
 
     <properties>
         <!--spring cloud version, please check the table https://spring.io/projects/spring-cloud compatibility version with spring boot framework-->
